@@ -14,7 +14,7 @@ header {
     background-color: black;
     color:white;
     height: 65px;
-    width: 100%;
+    width:fit-content;
     position: fixed;
     top:0;
     z-index:10;
