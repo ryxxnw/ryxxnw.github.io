@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-ol, ul {
-    list-style: none;
-}
-
 * {
-    font-family: 'Montserrat', sans-serif;
     padding:0;
     margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -31,9 +33,22 @@ header {
 .list-header li {
     float: left;
     line-height: 65px;
-    padding: 0 20px;
+    margin: 0 20px;
     font-size: 15px;
     cursor: pointer;
+    display: inline-block;
+}
+
+.list-header a {
+    color: #dbdad6;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+.list-header a:hover {
+    background-color:#dbdad6;
+    transition: 0.5s;
+    color: #202020;
 }
 
 .container {
