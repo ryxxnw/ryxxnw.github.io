@@ -30,13 +30,17 @@ header {
     cursor: default;
 }
 
-.list-header li {
+.list-header {
     float: left;
+}
+
+/* koreksi */
+.list-header li {
     line-height: 65px;
     margin: 0 20px;
     font-size: 15px;
     cursor: pointer;
-    display: inline-block;
+    display: inline;
 }
 
 .list-header a {
@@ -45,12 +49,21 @@ header {
     border-radius: 5px;
 }
 
-
 .list-header a:hover {
     background-color:#dbdad6;
     transition: 0.5s;
     color: #202020;
 }
+
+.burger {
+    float:right;
+    margin: 17px 30px;
+    cursor: pointer;
+    font-size:30px;
+    display: none;
+}
+
+
 
 .container {
     width:100%;
@@ -225,5 +238,9 @@ footer {
 
     .list-header li {
         display: none;
+    }
+
+    .burger {
+        display: inline;
     }
 }
