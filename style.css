@@ -45,6 +45,7 @@ header {
     border-radius: 5px;
 }
 
+
 .list-header a:hover {
     background-color:#dbdad6;
     transition: 0.5s;
@@ -126,8 +127,8 @@ header {
 
 .tengah {
     background-color: #dbdad6;
-    height: 480px;
     text-align: center;
+    padding-bottom: 70px;
 }
 
 .heading h1 {
@@ -147,13 +148,16 @@ header {
     width: 120px;
 }
 
+.hobi-hobiku {
+    display: flex;
+}
+
 .hobi {
-    width: 25%;
-    float: left;
+    flex:auto;
 }
 
 .txt {
-    margin-top: 20px;
+    margin: 20px 0 0 0;
     font-size: 20px;
 }
 
@@ -191,3 +195,35 @@ footer {
     margin: 22px 30px 0 5px;
 }
 
+@media (max-width:1000px) {
+    .hobi-hobiku {
+        flex-wrap: wrap;
+    }
+
+    .hobi {
+        width:50%;
+    }
+
+    .txt {
+        margin: 20px 0 50px 0;
+    }
+    
+}
+
+@media (max-width:670px) {
+    .hobi-hobiku {
+        flex-direction: column;
+    }
+
+    .hobi {
+        margin:0 auto;
+    }
+
+    .txt {
+        margin: 20px 0 60px 0;
+    }
+
+    .list-header li {
+        display: none;
+    }
+}
