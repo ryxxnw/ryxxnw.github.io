@@ -241,6 +241,6 @@ footer {
     }
 
     .burger {
-        display: inline;
+        display: block;
     }
 }
