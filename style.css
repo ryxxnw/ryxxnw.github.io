@@ -221,6 +221,9 @@ footer {
         margin: 20px 0 50px 0;
     }
     
+    .atas h1 {
+        font-size: 40px;
+    }
 }
 
 @media (max-width:670px) {
@@ -242,5 +245,26 @@ footer {
 
     .burger {
         display: block;
+    }
+
+    .atas h1 {
+        font-size: 30px;
+    }
+    
+    .wadah-1 p {
+        font-size: 12px;
+    }
+
+    .wadah-1 {
+        width:420px;
+    }
+
+    .heading h1 {
+        font-size: 30px;
+    }
+
+    .heading p {
+        width:320px;
+        font-size: 15px;
     }
 }
