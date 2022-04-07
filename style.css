@@ -117,27 +117,6 @@ header {
     margin:0;
 }
 
-.atas button {
-    width: 100px;
-    height: 30px;
-    border: none;
-    background-color: rgb(255, 0, 68);
-    color: ghostwhite;
-    margin: 20px 0 0 0;
-    border-radius: 4px;
-    box-shadow: inset 0 0 0 0 #f9c056;
-    transition: ease-out 0.3s;
-    line-height: 30px;
-    letter-spacing: 2px;
-    font-weight: 600;
-}
-
-.atas button:hover {
-    box-shadow: inset 100px 0 0 0 #f9c506;
-    cursor: pointer;
-    color: black;
-}
-
 .tengah {
     background-color: #dbdad6;
     text-align: center;
@@ -176,95 +155,68 @@ header {
 
 footer {
     height: 65px;
+    background-color: black;
+    width: 100%;
+    font-family: serif;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer div p {
+    color: #dbdad6;
+    line-height: 65px;
+}
+
+.container-bawah {
     background-color: #202020;
     width: 100%;
+    text-align: center;
+    padding: 50px 0 70px 0;
 }
 
-.kiri img {
-    width: 20px;
-    margin: 22px 5px 0 30px;
-    float: left;
+.container-bawah h1 {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: -2px;
+    padding: 20px 0 20px 0;
+    color: #dbdad6;
 }
 
-.kiri p {
-    color:#dbdad6;
-    font-family: Arial, Helvetica, sans-serif;
+.btn {
     display: inline-block;
-    margin: 22px 0 0 5px;
+    padding: 10px 5px;
+    background-color: #dbdad6;
+    border-radius: 4px;
+    margin:15px;
+    color: #202020;
+    width: 200px;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 0 #f9c056;
+    transition: ease-out 0.3s;
 }
 
-.kiri {
-    float:left;
+.btn:hover {
+    box-shadow: inset 200px 0 0 0 #f9c506;
 }
 
-.kanan {
-    float: right;
+.instagram {
+    background-color: #C73568  ;
 }
 
-.kanan p {
-    color:#dbdad6;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    margin: 22px 30px 0 5px;
+.facebook {
+    background-color: #4B69B1;
 }
 
-@media (max-width:1000px) {
-    .hobi-hobiku {
-        flex-wrap: wrap;
-    }
-
-    .hobi {
-        width:50%;
-    }
-
-    .txt {
-        margin: 20px 0 50px 0;
-    }
-    
-    .atas h1 {
-        font-size: 40px;
-    }
+.youtube {
+    background-color: #E83F3A;
 }
 
-@media (max-width:670px) {
-    .hobi-hobiku {
-        flex-direction: column;
-    }
+.twitter {
+    background-color: #37B1E2;
+}
 
-    .hobi {
-        margin:0 auto;
-    }
-
-    .txt {
-        margin: 20px 0 60px 0;
-    }
-
-    .list-header li {
-        display: none;
-    }
-
-    .burger {
-        display: block;
-    }
-
-    .atas h1 {
-        font-size: 30px;
-    }
-    
-    .wadah-1 p {
-        font-size: 12px;
-    }
-
-    .wadah-1 {
-        width:420px;
-    }
-
-    .heading h1 {
-        font-size: 30px;
-    }
-
-    .heading p {
-        width:320px;
-        font-size: 15px;
-    }
+.fab {
+    margin-right: 7px;
 }
