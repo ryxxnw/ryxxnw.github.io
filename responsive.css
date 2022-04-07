@@ -40,6 +40,11 @@
     .atas h1 {
         font-size: 30px;
     }
+    
+    .wadah-1 p {
+        font-size: 10.5px;
+        line-height: 16px;
+    }
 
     .wadah-1 {
         width:420px;
