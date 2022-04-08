@@ -96,14 +96,14 @@ header {
 
 .wadah-1 {
     margin:0 auto;
-    width: 480px;
+    width: 530px;
+    font-size: 15px;
+    padding: 10px 0 0 0;
 }
 
 .wadah-1 p {
-    margin: 10px 0 0 0;
     display: inline-block;
     width: 100%;
-    font-size: 12px;
 }
 
 .foto-text p {

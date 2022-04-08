@@ -14,6 +14,15 @@
     .atas h1 {
         font-size: 40px;
     }
+
+    .wadah-1 {
+        width:400px;
+        font-size: 12px;
+    }
+
+    .wadah-1 p {
+        line-height: 16px;
+    }
 }
 
 @media (max-width:670px) {
@@ -41,14 +50,15 @@
         font-size: 30px;
     }
     
-    .wadah-1 p {
+    .wadah-1 {
+        width:350px;
         font-size: 10.5px;
+    }
+
+    .wadah-1 p {
         line-height: 16px;
     }
 
-    .wadah-1 {
-        width:420px;
-    }
 
     .heading h1 {
         font-size: 30px;
