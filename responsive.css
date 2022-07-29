@@ -38,12 +38,15 @@
         margin: 20px 0 60px 0;
     }
 
-    .list-header li {
-        display: none;
+    .list-header ul li a {
+        font-size: 13px;
+        margin: 5px;
+        padding: 4px 7px;
     }
 
-    .burger {
-        display: block;
+    .logo {
+        padding: 0px 30px;
+        font-size: 15px;
     }
 
     .atas h1 {
