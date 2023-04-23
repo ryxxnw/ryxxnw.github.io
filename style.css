@@ -12,6 +12,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* header */
 header {
     background-color: black;
     color:white;
@@ -34,7 +35,6 @@ header {
     float: left;
 }
 
-/* koreksi */
 .list-header ul li {
     display: inline;
 }
@@ -55,6 +55,8 @@ header {
     color: #202020;
     font-weight: bold;
 }
+
+/* container atas*/
 
 .wrap-container {
     width:100%;
@@ -106,6 +108,7 @@ header {
     font-size: 14px;
 }
 
+/* container tengah */
 .container-tengah {
     background-color: #dbdad6;
     text-align: center;
@@ -142,6 +145,7 @@ header {
     font-size: 20px;
 }
 
+/* container tengah 2 */
 .container-tengah2 {
     background-color: #75746d;
     text-align: center;
@@ -175,23 +179,7 @@ header {
     padding: 0px 0 15px 0;
 }
 
-
-footer {
-    height: 65px;
-    background-color: black;
-    width: 100%;
-    font-family: serif;
-}
-
-footer div {
-    text-align: center;
-}
-
-footer div p {
-    color: #dbdad6;
-    line-height: 65px;
-}
-
+/* container bawah */
 .container-bawah {
     background-color: #202020;
     text-align: center;
@@ -242,4 +230,22 @@ footer div p {
 
 .fab {
     margin-right: 7px;
+}
+
+
+/* footer */
+footer {
+    height: 65px;
+    background-color: black;
+    width: 100%;
+    font-family: serif;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer div p {
+    color: #dbdad6;
+    line-height: 65px;
 }
