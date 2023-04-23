@@ -1,3 +1,4 @@
+/* untuk tablet 1000>x>670 */
 @media (max-width:1000px) {
     .hobi-hobiku {
         flex-wrap: wrap;
@@ -25,6 +26,7 @@
     }
 }
 
+/* untuk hp 670 ke bawah */
 @media (max-width:670px) {
     .hobi-hobiku {
         flex-direction: column;
@@ -70,6 +72,10 @@
     .heading p {
         width:320px;
         font-size: 15px;
+    }
+
+    .tombol {
+        margin: 5px 0;
     }
 
     .container-bawah h1 {
