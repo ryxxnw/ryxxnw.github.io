@@ -7,25 +7,24 @@
     <title>Wildani Tahmid</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
     <header>
         <div class="logo">
             <p>WILDANI TAHMID</p>
         </div>
-        <div class="list-header">
+        <nav class="list-header">
             <ul>
                 <li><a href="#bagian1">Perkenalan</a></li>
                 <li><a href="#bagian2">Hobi</a></li>
                 <li><a href="#bagian3">Social Media</a></li>
             </ul>
-        </div>
+        </nav>
     </header>
     <main>
-        <div class="atas" id="bagian1">
-            <div class="container">
+        <div class="container-atas" id="bagian1">
+            <div class="wrap-container">
                 <h1>HALO KAWAN!<br />INI WEBSITE PERTAMAKU<span>.</span></h1>
                 <div class="foto-text">
                     <img src="gambar/r.JPG" alt="foto ryan" class="foto-ryan">
@@ -36,8 +35,8 @@
                 </div>
             </div>
         </div>
-        <div class="tengah" id="bagian2">
-            <div class="container">
+        <div class="container-tengah" id="bagian2">
+            <div class="wrap-container">
                 <div class="heading">
                     <h1>MY HOBBIES</h1>
                     <p>Aku adalah seseorang yang suka mencoba banyak hal. <br/>Aku mudah tertarik dengan banyak hal;
@@ -63,8 +62,15 @@
                 </div>
             </div>
         </div>
-        <div class="bawah" id="bagian3">
-            <div class="container-bawah">
+        <div class="container-tengah2">
+            <div class="wrap-container">
+                <h1>PILIH YUK!</h1>
+                <button type="button" class="tombol" id="buttonMale">CLICK ME IF YOU ARE MALE</button>
+                <button type="button" class="tombol" id="buttonFemale">CLICK ME IF YOU ARE FEMALE</button>
+            </div>
+        </div>
+        <div class="container-bawah" id="bagian3">
+            <div class="wrap-container">
                 <h1>MY SOCIAL MEDIA</h1>
                 <div class="btn-wrapper">
                     <a href="https://www.instagram.com/wildanitahmid/" class="btn instagram"><span class="fab fa-instagram"></span>Instagram</a>
@@ -77,9 +83,9 @@
     </main>
     <footer>
         <div>
-            <p>Copyright © 2022 | Ryan Wildani Tahmid</p>
+            <p>Copyright © 2023 | Ryan Wildani Tahmid</p>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
-
 </html>
